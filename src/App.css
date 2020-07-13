@@ -1,0 +1,11 @@
+.App{
+    margin-top: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    display: -ms-inline-grid;
+    grid-template-columns: 26% 26% 26% 22% ; 
+    grid-gap:10px;
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(100px,auto);
+    
+}
