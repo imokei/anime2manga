@@ -36,8 +36,21 @@ img{
     grid-column: 2/4;
     text-align: center;
     box-shadow: 0px 0px 10px 0px;
-
+    overflow: hidden;
 }
+.information .secondaryInfo{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%; 
+    grid-gap:10px;
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(100px,auto);
+}
+
+.information p{
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 5%;}
 
 .information h2{
     text-align: left;
@@ -50,8 +63,4 @@ img{
     text-align: center;
     box-shadow: 0px 0px 10px 0px;
 
-}
-
-.somethingElse{ 
-    border: 5px black solid;
 }

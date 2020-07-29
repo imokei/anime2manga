@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Home from './routes/Home';
+import NavBar from './components/NavBar/NavBar';
 function App() {
   return (
     <React.Fragment>
-      <Home></Home>
+      <NavBar></NavBar>
     </React.Fragment>
   );
 }

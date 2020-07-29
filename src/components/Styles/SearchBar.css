@@ -1,9 +1,10 @@
 .SearchBarWrapper{
     grid-row: 1;
     grid-column: 4/5;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 .input{
-    margin-top: 4%;
     margin-left: 10%;
     width: 50%;
     height: 50%;
