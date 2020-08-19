@@ -44,6 +44,7 @@ export default class Home extends Component {
         axios.get('http://localhost:5000/api/animes/')
             .then(res => {
                 const animes = res.data;
+                // console.log(animes);
                 this.setState({ fullAnimeList: animes, targetAnime: animes[Math.floor(Math.random()*animes.length)] });
             })
     }

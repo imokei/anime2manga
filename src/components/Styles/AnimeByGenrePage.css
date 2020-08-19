@@ -1,0 +1,27 @@
+.GenreOptions{
+    /* margin-top:10px; */
+
+    box-shadow: 0px 4px 4px 0px;
+    background-color: dodgerblue;
+    overflow:auto;
+    box-shadow: 0em 0em 10px lightskyblue;
+
+    /* border: 10px solid black; */
+}
+
+
+.GenreOptions .checkbox{
+    /* border: solid red 1px; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0em 0em 1px lightskyblue;
+
+    background-color: dodgerblue;
+    width: 33.333%;
+    float: left;
+    overflow: hidden;
+
+
+}

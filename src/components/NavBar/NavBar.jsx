@@ -24,13 +24,13 @@ export default class NavBar extends Component {
                                 <Link to="/" className="nav-item"><img src={require("./logo.png")} alt="logo" /></Link>
                                 <Link to="/" className="nav-item">Home</Link>
                                 <Link to="/browse" className="nav-item">Browse</Link>
-                                <Link to="/ongoing" className="nav-item">Users</Link>
+                                <Link to="/ongoing" className="nav-item">Ongoing</Link>
                                 <Link to="/genre" className="nav-item">Genre</Link>
                             <div className="icon">
                                 <Menu right noOverlay>
                                     <Link to="/" className="bm-item">Home</Link>
                                     <Link to="/browse" className="bm-item">Browse</Link>
-                                    <Link to="/ongoing" className="bm-item">Users</Link>
+                                    <Link to="/ongoing" className="bm-item">Ongoing</Link>
                                     <Link to="/genre"className="bm-item">Genre</Link>
                                 </Menu>
                             </div>
